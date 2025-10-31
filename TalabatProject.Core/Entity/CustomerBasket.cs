@@ -14,6 +14,9 @@ namespace TalabatProject.Core.Entity
         }
 
         public string Id { get; set; }
+        public string CustomerIntentId { get; set; }
+        public string ShippingCost { get; set; }
+        public string ClientSecret { get; set; }
         public List<BasketItem> Items { get; set; }
     }
 }
